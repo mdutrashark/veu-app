@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Varygraphie PERSONAL USE ONLY Regular';
+    src: url("/assets/fontes/'VarygraphiePersonalUseOnlyRegular-nRWX1.woff") format('woff');
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varygraphie PERSONAL USE ONLY Regular';
+}
+  
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+#container{
+    display: grid;
+    justify-content: center;
+    background-color: rgb(172, 131, 238);
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.telas{
+    border: solid 2px black;
+    margin-bottom: 0.3rem;
+    margin-top: 0.6rem;
+    width: 40rem;
+    height: 100vh;
+    background-image: url(/assets/img/fundo-img.jpg);
+    background-size: cover;
+    opacity: 0.75;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.noivas-img{
+   width: 13rem;
+   height: 13rem;
+   position: relative;
+}
+
+#noiva-1{
+    left: 1.4rem;
+}
+
+#noiva-2{
+    right: 1.4rem;
+}
+
+#noivas-container-1{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 5rem 0 4.8rem;
+}
+
+#texto-1, #texto-2, #texto-3, #texto-4, #texto-5{
+    font-size: 2.7em;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffff;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: .25em transparent;
+}
+
+#veu{
+    width: 26rem;
+    height: 28rem;
+    position: relative;
+    top: -2rem;
+    left: 4.5rem;
+}
+
+#b1{
+    width: 12rem;
+    height: 4.5rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    border-radius: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: -3.5rem;
+    margin-left: 12rem;
+}
+
+#b1:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+#noivas-container-2{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 5rem 0 5rem;
+}
+
+#gato{
+    width: 25rem;
+    height: 23rem;;
+    position: relative;
+    left: 5.5rem;
+    top: -0.4rem;
+}
+
+#b2, #b3, #b4, #b5{
+    width: 12rem;
+    height: 4.5rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    border-radius: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: -0.5rem;
+    margin-left: 12rem;
+}
+
+#b2:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+#b3:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+#b4:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+#b5:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+
+#figurinha{
+    width: 23rem;
+    height: 23rem;;
+    position: relative;
+    left: 6.4rem;
+    top: -0.4rem;
+    border: solid 2px black;
+}
+
+b{
+    font-size: 1.5em;
+}
+
+.noivas-img-4{
+    width: 12rem;
+    height: 12rem;
+    position: relative;
+}
+
+#noivas-container-4{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 5rem 0 4rem;
+    
+}
+
+#texto-4{
+    height: fit-content;
+    position: relative;
+    top: -1rem;
+    font-size: 2.8em;
+}
+
+#b4{
+  position: relative;
+  bottom: 0rem;    
+  margin-left: 10.5rem; 
+}
+
+#casal{
+    width: 24rem;
+    height: 24rem;
+    border: solid 2px black;
+    position: relative;
+    left: 4.5rem;
+    top: -0.5rem;
+}
+
+#number{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffff;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: .25em transparent;
+    position: relative;
+    top: -2.5rem;
+    
+}
+
+#texto-5{
+    font-size: 3em;
+    height: fit-content;
+    position: relative;
+    top: 0.5rem;
+}
+
+#noivas-container-5{
+    height: fit-content;
+    margin-top: 2.5rem;
+}
+
+#obrigado{
+    width: 22rem;
+    height: 22rem;
+    border: 2px solid black;
+    position: relative;
+    left: 2.5rem;
+    top: -1.7rem;
+}
+
+#pix{
+    font-size: 2.7em;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffff;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: .25em transparent;
+    position: relative;
+    top: -1.5rem;
+}
+
+#b5{
+    width: 12.5rem;
+    height: 4.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border-radius: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    margin-left: 7rem;
+}
+
+
+
+
+
+
+
