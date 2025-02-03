@@ -1,10 +1,10 @@
 /* Responsividade */
 
-@media only screen and (max-width: 350px){
+@media only screen and (min-width: 320px){
     .noivas-img{
         width: 12rem;
         height: 12rem;
-        top: -2rem;
+        top: -3rem;
     }
 
     #noivas-container-1{
@@ -19,18 +19,18 @@
     #texto-1, #texto-2, #texto-3, #texto-4, #texto-5{
         font-size: 2.3em;
         position: relative;
-        top: -2rem;
+        top: -3.2rem;
     }
 
     #veu{
         width: 22rem;
         height: 23rem;
-        top: -3rem;
+        top: -5rem;
         left: 5rem;
     }
 
-    #b1, #b2, #b3{
-        margin-bottom: 1.5rem;
+    #b1, #b2, #b3, #b4, #b5, #b01{
+        margin-bottom: 5rem;
         margin-left: 11rem;
     }
 
@@ -39,13 +39,13 @@
         height: 21rem;;
         position: relative;
         left: 5.5rem;
-        top: -1.5rem;
+        top: -2.8rem;
     }
 
     #figurinha{
         width: 21rem;
         height: 21rem;
-        top: -1.5rem;
+        top: -2.2rem;
     }
 
     #casal{
@@ -54,7 +54,7 @@
         border: solid 2px black;
         position: relative;
         left: 5.3rem;
-        top: -1.5rem;
+        top: -2.2rem;
     }
 
     #b4{
@@ -69,7 +69,7 @@
         border: 2px solid black;
         position: relative;
         left: 2.5rem;
-        top: -2.3rem;
+        top: -2.8rem;
     }
 
     #texto-5{
@@ -96,5 +96,3 @@
     }
 
 }
-
-
