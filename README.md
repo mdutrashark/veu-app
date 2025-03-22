@@ -10,6 +10,5 @@ Acesse aqui o site - https://gincana-do-veu-demo.netlify.app/
 
 Ferramentas utilizadas 🔧
 Utilizei somente CSS e HTML puros.
-HTML E CSS
 
                                      Desenvolvido por Marcos Dutra
